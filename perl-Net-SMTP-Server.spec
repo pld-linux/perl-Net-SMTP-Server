@@ -1,6 +1,7 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	SMTP-Server
@@ -24,7 +25,7 @@ Summary(uk):	Модуль для Perl Net::SMTP::Server
 Summary(zh_CN):	Net::SMTP::Server Perl дё©И
 Name:		perl-Net-SMTP-Server
 Version:	1.1
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
@@ -62,5 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{perl_sitelib}/Net/SMTP/Server*
-%{perl_sitelib}/auto/Net/SMTP
+# empty autosplit.ix files
+#%{perl_sitelib}/auto/Net/SMTP
 %{_mandir}/man3/*
