@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SMTP-Server
+%define		pdir	Net
+%define		pnam	SMTP-Server
 Summary:	Net::SMTP::Server perl module
 Summary(cs):	Modul Net::SMTP::Server pro Perl
 Summary(da):	Perlmodul Net::SMTP::Server
