@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Net::SMTP::Server
 Summary(it):	Modulo di Perl Net::SMTP::Server
 Summary(ja):	Net::SMTP::Server Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::SMTP::Server ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::SMTP::Server
+Summary(nb):	Perlmodul Net::SMTP::Server
 Summary(pl):	Modu³ perla Net::SMTP::Server
 Summary(pt_BR):	Módulo Perl Net::SMTP::Server
 Summary(pt):	Módulo de Perl Net::SMTP::Server
