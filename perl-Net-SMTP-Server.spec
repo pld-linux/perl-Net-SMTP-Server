@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::SMTP::Server
 Summary(zh_CN):	Net::SMTP::Server Perl дё©И
 Name:		perl-Net-SMTP-Server
 Version:	1.1
-Release:	4
+Release:	5
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
