@@ -6,7 +6,6 @@
 %define	pdir	Net
 %define	pnam	SMTP-Server
 Summary:	Net::SMTP::Server perl module
-Summary:	Net::SMTP::Server perl module 
 Summary(cs):	Modul Net::SMTP::Server pro Perl
 Summary(da):	Perlmodul Net::SMTP::Server
 Summary(de):	Net::SMTP::Server Perl Modul
