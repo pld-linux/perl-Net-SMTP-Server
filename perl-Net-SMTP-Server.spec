@@ -25,7 +25,7 @@ Summary(zh_CN):	Net::SMTP::Server Perl Ä£¿é
 Name:		perl-Net-SMTP-Server
 Version:	1.1
 Release:	5
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	29539763294a4cbe88d3e520b3de45c1
@@ -57,7 +57,8 @@ zastosowaniach.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
