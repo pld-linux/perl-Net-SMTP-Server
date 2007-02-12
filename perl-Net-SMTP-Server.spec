@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	SMTP-Server
 Summary:	Net::SMTP::Server perl module
-Summary(cs):	Modul Net::SMTP::Server pro Perl
-Summary(da):	Perlmodul Net::SMTP::Server
-Summary(de):	Net::SMTP::Server Perl Modul
-Summary(es):	MÛdulo de Perl Net::SMTP::Server
-Summary(fr):	Module Perl Net::SMTP::Server
-Summary(it):	Modulo di Perl Net::SMTP::Server
-Summary(ja):	Net::SMTP::Server Perl •‚•∏•Â°º•Î
-Summary(ko):	Net::SMTP::Server ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Net::SMTP::Server
-Summary(pl):	Modu≥ perla Net::SMTP::Server
-Summary(pt_BR):	MÛdulo Perl Net::SMTP::Server
-Summary(pt):	MÛdulo de Perl Net::SMTP::Server
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Net::SMTP::Server
-Summary(sv):	Net::SMTP::Server Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Net::SMTP::Server
-Summary(zh_CN):	Net::SMTP::Server Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Net::SMTP::Server pro Perl
+Summary(da.UTF-8):   Perlmodul Net::SMTP::Server
+Summary(de.UTF-8):   Net::SMTP::Server Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Net::SMTP::Server
+Summary(fr.UTF-8):   Module Perl Net::SMTP::Server
+Summary(it.UTF-8):   Modulo di Perl Net::SMTP::Server
+Summary(ja.UTF-8):   Net::SMTP::Server Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Net::SMTP::Server ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Net::SMTP::Server
+Summary(pl.UTF-8):   Modu≈Ç perla Net::SMTP::Server
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Net::SMTP::Server
+Summary(pt.UTF-8):   M√≥dulo de Perl Net::SMTP::Server
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::SMTP::Server
+Summary(sv.UTF-8):   Net::SMTP::Server Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::SMTP::Server
+Summary(zh_CN.UTF-8):   Net::SMTP::Server Perl Ê®°Âùó
 Name:		perl-Net-SMTP-Server
 Version:	1.1
 Release:	6
@@ -39,10 +39,10 @@ This module is a complete, RFC 821 compliant, SMTP server implementation
 written entirely in Perl.  It has powerful extensively and customization
 facilities that allow for a variety of potential uses.
 
-%description -l pl
-Ten modu≥ oferuje kompletn±, zgodn± z RFC 821 implementacjÍ serwera
-SMTP, napisan± ca≥kowicie w Perlu.  Serwer ma duøe moøliwo∂ci rozbudowy
-i dostosowania do w≥asnych potrzeb, co umoøliwia uøycie go w wielu
+%description -l pl.UTF-8
+Ten modu≈Ç oferuje kompletnƒÖ, zgodnƒÖ z RFC 821 implementacjƒô serwera
+SMTP, napisanƒÖ ca≈Çkowicie w Perlu.  Serwer ma du≈ºe mo≈ºliwo≈õci rozbudowy
+i dostosowania do w≈Çasnych potrzeb, co umo≈ºliwia u≈ºycie go w wielu
 zastosowaniach.
 
 %prep
