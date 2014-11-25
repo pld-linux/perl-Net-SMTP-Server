@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	SMTP-Server
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SMTP::Server perl module
 Summary(cs.UTF-8):	Modul Net::SMTP::Server pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SMTP::Server
@@ -29,19 +29,21 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	29539763294a4cbe88d3e520b3de45c1
+URL:		http://search.cpan.org/dist/Net-SMTP-Server/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module is a complete, RFC 821 compliant, SMTP server implementation
-written entirely in Perl.  It has powerful extensively and customization
-facilities that allow for a variety of potential uses.
+This module is a complete, RFC 821 compliant, SMTP server
+implementation written entirely in Perl. It has powerful extensively
+and customization facilities that allow for a variety of potential
+uses.
 
 %description -l pl.UTF-8
 Ten moduł oferuje kompletną, zgodną z RFC 821 implementację serwera
-SMTP, napisaną całkowicie w Perlu.  Serwer ma duże możliwości rozbudowy
+SMTP, napisaną całkowicie w Perlu. Serwer ma duże możliwości rozbudowy
 i dostosowania do własnych potrzeb, co umożliwia użycie go w wielu
 zastosowaniach.
 
