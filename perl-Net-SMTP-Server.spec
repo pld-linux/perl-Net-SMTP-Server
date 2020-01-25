@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	SMTP-Server
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SMTP::Server perl module
 Summary(cs.UTF-8):	Modul Net::SMTP::Server pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SMTP::Server
